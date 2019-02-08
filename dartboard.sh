@@ -37,4 +37,12 @@ sudo apt-get install gcc g++ make
      echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
      sudo apt-get update && sudo apt-get install yarn
      
+ // error emulator // unknow skin... denied access
+ 
+ sudo apt install qemu-kvm
+ 
+ ls -al /dev/kvm
+ 
+ grep kvm /etc/group
+ sudo adduser yourname kvm
  
