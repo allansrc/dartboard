@@ -7,6 +7,9 @@ $ sudo sh -c 'curl https://storage.googleapis.com/download.dartlang.org/linux/de
 $ sudo apt-get update
 $ sudo apt-get install dart
 
+$ export PATH="$PATH:/usr/lib/dart/bin"
+$ echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.profile
+
 // java
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
