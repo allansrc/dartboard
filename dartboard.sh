@@ -45,4 +45,5 @@ sudo apt-get install gcc g++ make
  
  grep kvm /etc/group
  sudo adduser yourname kvm
+ sudo chown user /dev/kvm
  
