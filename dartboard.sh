@@ -47,3 +47,5 @@ sudo apt-get install gcc g++ make
  sudo adduser yourname kvm
  sudo chown user /dev/kvm
  
+ ./emulator -accel-check
+
