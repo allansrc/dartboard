@@ -50,3 +50,12 @@ sudo apt-get install gcc g++ make
  
  ./emulator -accel-check
 
+export ANDROID_SDK=$HOME/Library/Android/sdk
+export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
+
+
+#Reload you .bash_profile Or .bashrc depending on OS
+
+Get list of emulators available: $emulator -list-avds
+
+Launch emulator from the command line and Replace avd with the name of your emulator $emulator @avd
