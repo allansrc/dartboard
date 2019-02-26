@@ -11,10 +11,11 @@ $ export PATH="$PATH:/usr/lib/dart/bin"
 $ echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.profile
 
 // java
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt install oracle-java8-installer
-sudo apt install oracle-java8-set-default
+
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java11-installer
+
 
 //vs code
 
