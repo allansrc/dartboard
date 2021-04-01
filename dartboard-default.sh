@@ -1,3 +1,10 @@
+# #####################################################
+# Should work on sh, dash, bash, ksh, zsh
+# To use source this file from your bash profile
+#
+# Implemented by Allan Ramos <allansrc@protonmail.com>
+#  
+# ######################################################
 sudo apt install git
 ///
 $ sudo apt-get update
