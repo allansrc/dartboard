@@ -17,22 +17,24 @@
 # full script
 cd $HOME
 mkdir $(pwd)/.dartboard
+
 cd $(pwd)/.dartboard
+
+echo "Cleaning environment ..."
 
 if [[ -f lastest-stable ]]
 then
-  echo "The file lastest-stable does exist!"
-  echo "Then it will be deleted"
   rm lastest-stable
-  echo "done"
 fi
 
 if [[ -f index.html ]]
 then
-  echo "The file index does exist!"
-  echo "Then it will be deleted"
   rm index.html
-  echo "done"
+fi
+
+if [[ -f dartsdk-linux-x64-release.zip ]]
+then
+  rm dartsdk-linux-x64-release.zip
 fi
 
 wget "https://dart.dev/tools/sdk/"
